@@ -83,18 +83,8 @@
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
 }
-.header-button1 {
-  border-color: #4a256a;
-  text-decoration: none;
-  background-color: #4a256a;
-}
 .header-text3 {
   text-align: center;
-}
-.header-button2 {
-  color: #4a256a;
-  border-color: #4a256a;
-  text-decoration: none;
 }
 .header-text4 {
   text-align: center;

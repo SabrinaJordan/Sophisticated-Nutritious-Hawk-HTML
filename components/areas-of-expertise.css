@@ -1,0 +1,206 @@
+.areas-of-expertise-layout251 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.areas-of-expertise-max-width {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.areas-of-expertise-section-title {
+  width: 1037px;
+  align-self: flex-start;
+  border-color: #4a256a;
+  border-width: 1px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+}
+.areas-of-expertise-column {
+  gap: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.areas-of-expertise-text12 {
+  align-self: center;
+  padding-top: var(--dl-space-space-twounits);
+}
+.areas-of-expertise-content1 {
+  gap: 48px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.areas-of-expertise-row {
+  align-items: flex-start;
+}
+.areas-of-expertise-feature1 {
+  flex: 1;
+}
+.areas-of-expertise-content2 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.areas-of-expertise-feature2 {
+  flex: 1;
+}
+.areas-of-expertise-content3 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.areas-of-expertise-feature3 {
+  flex: 1;
+}
+.areas-of-expertise-content4 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.areas-of-expertise-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.areas-of-expertise-container2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.areas-of-expertise-link1 {
+  display: contents;
+}
+.areas-of-expertise-image1 {
+  width: 200px;
+  align-self: center;
+  object-fit: cover;
+  text-decoration: none;
+}
+.areas-of-expertise-container3 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.areas-of-expertise-link2 {
+  display: contents;
+}
+.areas-of-expertise-image2 {
+  width: 200px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.areas-of-expertise-container4 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.areas-of-expertise-link3 {
+  display: contents;
+}
+.areas-of-expertise-image3 {
+  width: 200px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.areas-of-expertise-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+.areas-of-expertise-action1 {
+  text-decoration: none;
+}
+.areas-of-expertise-fragment1 {
+  display: contents;
+}
+.areas-of-expertise-text16 {
+  width: 300px;
+  display: inline-block;
+}
+.areas-of-expertise-fragment2 {
+  display: contents;
+}
+.areas-of-expertise-text17 {
+  width: 300px;
+  display: inline-block;
+}
+.areas-of-expertise-fragment3 {
+  display: contents;
+}
+.areas-of-expertise-text18 {
+  display: inline-block;
+}
+.areas-of-expertise-fragment4 {
+  display: contents;
+}
+.areas-of-expertise-feature1-title2 {
+  width: 325px;
+  display: inline-block;
+}
+@media(max-width: 991px) {
+  .areas-of-expertise-section-title {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .areas-of-expertise-feature1-image {
+    height: 260px;
+  }
+  .areas-of-expertise-feature2-image {
+    height: 260px;
+  }
+  .areas-of-expertise-feature3-image {
+    height: 260px;
+  }
+}
+@media(max-width: 767px) {
+  .areas-of-expertise-column {
+    width: 100%;
+  }
+  .areas-of-expertise-text11 {
+    text-align: center;
+  }
+  .areas-of-expertise-row {
+    flex-direction: column;
+  }
+  .areas-of-expertise-feature1-image {
+    width: 100%;
+  }
+  .areas-of-expertise-feature2 {
+    width: auto;
+  }
+  .areas-of-expertise-feature2-image {
+    width: 100%;
+  }
+  .areas-of-expertise-feature3 {
+    width: auto;
+  }
+  .areas-of-expertise-actions {
+    flex-wrap: wrap;
+  }
+}
+@media(max-width: 479px) {
+  .areas-of-expertise-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .areas-of-expertise-button1 {
+    width: 100%;
+  }
+  .areas-of-expertise-button2 {
+    width: 100%;
+  }
+}
