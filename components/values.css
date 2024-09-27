@@ -24,6 +24,10 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
+.values-text10 {
+  font-style: italic;
+  font-weight: 400;
+}
 .values-text12 {
   padding-top: var(--dl-space-space-twounits);
 }
@@ -342,6 +346,9 @@
   .values-section-title {
     align-items: flex-start;
     flex-direction: column;
+  }
+  .values-text12 {
+    padding-top: unset;
   }
   .values-container3 {
     grid-gap: var(--dl-space-space-twounits);

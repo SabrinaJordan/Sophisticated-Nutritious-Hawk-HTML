@@ -15,7 +15,7 @@
   flex-direction: column;
 }
 .areas-of-expertise-section-title {
-  width: 1037px;
+  width: 100%;
   align-self: flex-start;
   border-color: #4a256a;
   border-width: 1px;
@@ -27,10 +27,12 @@
 .areas-of-expertise-column {
   gap: var(--dl-space-space-halfunit);
   align-items: flex-start;
-  flex-shrink: 0;
+}
+.areas-of-expertise-text10 {
+  font-style: italic;
+  font-weight: 400;
 }
 .areas-of-expertise-text12 {
-  align-self: center;
   padding-top: var(--dl-space-space-twounits);
 }
 .areas-of-expertise-content1 {
@@ -156,6 +158,9 @@
     align-items: flex-start;
     flex-direction: column;
   }
+  .areas-of-expertise-text12 {
+    padding-top: unset;
+  }
   .areas-of-expertise-feature1-image {
     height: 260px;
   }
@@ -167,9 +172,6 @@
   }
 }
 @media(max-width: 767px) {
-  .areas-of-expertise-column {
-    width: 100%;
-  }
   .areas-of-expertise-text11 {
     text-align: center;
   }
@@ -187,6 +189,10 @@
   }
   .areas-of-expertise-feature3 {
     width: auto;
+  }
+  .areas-of-expertise-container1 {
+    align-items: flex-start;
+    flex-direction: column;
   }
   .areas-of-expertise-actions {
     flex-wrap: wrap;

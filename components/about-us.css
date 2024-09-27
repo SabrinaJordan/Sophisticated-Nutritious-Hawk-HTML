@@ -9,7 +9,7 @@
   flex-direction: column;
 }
 .about-us-section-title1 {
-  width: 1037px;
+  width: auto;
   align-self: flex-start;
   border-color: #4a256a;
   border-width: 1px;
@@ -22,6 +22,10 @@
   gap: var(--dl-space-space-halfunit);
   align-items: flex-start;
   flex-shrink: 0;
+}
+.about-us-text10 {
+  font-style: italic;
+  font-weight: 400;
 }
 .about-us-text12 {
   padding-top: var(--dl-space-space-twounits);
@@ -326,6 +330,9 @@
     align-items: flex-start;
     flex-direction: column;
   }
+  .about-us-text12 {
+    padding-top: unset;
+  }
 }
 @media(max-width: 767px) {
   .about-us-column {
@@ -333,9 +340,6 @@
   }
   .about-us-text11 {
     text-align: center;
-  }
-  .about-us-slider {
-    display: none;
   }
 }
 @media(max-width: 479px) {
