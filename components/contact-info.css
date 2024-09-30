@@ -62,8 +62,12 @@
   align-self: stretch;
   text-align: center;
 }
+.contact-info-text5 {
+  text-align: center;
+}
 .contact-info-email {
   text-align: center;
+  text-decoration: none;
 }
 .contact-info-content4 {
   gap: var(--dl-space-space-oneandhalfunits);
@@ -91,8 +95,12 @@
   align-self: stretch;
   text-align: center;
 }
+.contact-info-text7 {
+  text-align: center;
+}
 .contact-info-phone {
   text-align: center;
+  text-decoration: none;
 }
 .contact-info-content6 {
   gap: var(--dl-space-space-oneandhalfunits);
@@ -118,6 +126,9 @@
 }
 .contact-info-text8 {
   align-self: stretch;
+  text-align: center;
+}
+.contact-info-text9 {
   text-align: center;
 }
 .contact-info-address {

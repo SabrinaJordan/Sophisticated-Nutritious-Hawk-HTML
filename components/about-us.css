@@ -184,7 +184,7 @@
 }
 .about-us-section-title2 {
   width: 100%;
-  display: flex;
+  display: none;
   align-items: flex-start;
   flex-direction: column;
 }
